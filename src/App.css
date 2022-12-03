@@ -7,6 +7,12 @@
 .left {
   width: 50%;
   height: 100vh;
+  border-right: 1px solid black;
+}
+
+.left h1 {
+  margin: 0;
+  margin-left: 10px;
 }
 
 .appBar {
@@ -19,18 +25,24 @@
   width: 99.7%;
   height: calc(100vh - 56px);
   outline: none;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   overflow-x: scroll;
   padding: 0;
   resize: none;
   padding: 10px;
   box-sizing: border-box;
+  border: none;
 }
 
 
 .right {
   width: 50%;
   height: 100vh;
+}
+
+.right h1 {
+  margin: 0;
+  margin-left: 10px;
 }
 
 #preview {

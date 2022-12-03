@@ -23,7 +23,9 @@ function App() {
   return (
     <div className="App">
       <div className="left">
-        <div className="appBar"></div>
+        <div className="appBar">
+          <h1>Editor</h1>
+        </div>
         <textarea
           type="text"
           value={input}
@@ -33,7 +35,9 @@ function App() {
         />
       </div>
       <div className="right">
-        <div className="appBar"></div>
+        <div className="appBar">
+          <h1>Preview</h1>
+        </div>
         <div id="preview">
           <ReactMarkdown
             children={input}
@@ -48,5 +52,6 @@ function App() {
 }
 
 export default App;
+
 
 
