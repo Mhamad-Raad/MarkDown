@@ -4,10 +4,66 @@
   height: 100vh;
 }
 
-#editor {
+.left {
   width: 50%;
+  height: 100vh;
+  border-right: 1px solid black;
+}
+
+.left h1 {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.appBar {
+  width: 100%;
+  height: 50px;
+  background-color: #60308f;
+}
+
+#editor {
+  width: 99.7%;
+  height: calc(100vh - 56px);
+  outline: none;
+  font-size: 1rem;
+  overflow-x: scroll;
+  padding: 0;
+  resize: none;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+}
+
+
+.right {
+  width: 50%;
+  height: 100vh;
+}
+
+.right h1 {
+  margin: 0;
+  margin-left: 10px;
 }
 
 #preview {
-  width: 50%;
+  width: 100%;
+  height: calc(100vh - 56px);
+  overflow: scroll;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+blockquote {
+  background-color: rgb(223, 213, 168);
+  padding: 7px 10px;
+  margin: 0;
+}
+
+code {
+  box-sizing: border-box;
+  padding: 10PX;
+  background-color: black;
+  color: white;
+  display: flex;
+  overflow: scroll;
 }
