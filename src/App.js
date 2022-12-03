@@ -16,24 +16,21 @@ function App() {
   const [input, setInput] = useState("");
 
   useEffect(() => {
-    const a = {
-
-    }
     setInput(`# Welcome 'React Markdown Previewer!'
 
 ## This is a sub-heading...
 ### And here's some other cool stuff:
 
-Heres some code, \`<div></div>\`, between 2 backticks.
+Here's some code, \`<div></div>\`, between 2 backticks.
 \`\`\` 
-// this is multi-line code:
+// this is a multi-line code:
 \`\`\`
 You can also make text **bold**... whoa!
 Or _italic_.
 Or... wait for it... **_both!_**
 And feel free to go crazy.
 
-And here is a horizzantal line !!!
+And here is a horizontal line !!!
 
 
 There's also [links](https://www.linkedin.com/in/mhamad-raad), and
@@ -41,7 +38,7 @@ There's also [links](https://www.linkedin.com/in/mhamad-raad), and
 
 And if you want to get really crazy, even tables:
 
-- And of course there are lists.
+- And of course, there are lists.
 - Some are bulleted.
 - With different indentation levels.
 - That look like this.
